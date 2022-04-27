@@ -1,16 +1,16 @@
 <script>
 import MenuLateral from "@/components/MenuLateral.vue";
-import CabeCalho from "@/components/CabeCalho.vue";
-import PrinCipal from "@/components/PrinCipal.vue";
-import RodaPe from "@/components/RodaPe.vue";
+import CompCabecalho from "@/components/CompCabealho.vue";
+import CompPrincipal from "@/components/CompPrinipal.vue";
+import CompRodape from "@/components/CompRodape.vue";
 export default {
-  components: { MenuLateral, CabeCalho, PrinCipal, RodaPe },
+  components: { MenuLateral, CompCabecalho, CompPrincipal, CompRodape },
 };
 </script>
 <template>
   <MenuLateral />
-  <CabeCalho />
-  <PrinCipal />
-  <RodaPe />
+  <CompCabecalho />
+  <CompPrincipal />
+  <CompRodape />
 </template>
 <style></style>
