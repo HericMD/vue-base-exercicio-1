@@ -1,7 +1,12 @@
 <script>
-import NovoBloco;
+import NovoBloco from "@/NovoBloco.vue";
 export default {
   components: { NovoBloco },
+  data() {
+    return {
+      alunos1: ["Heloisa", "Eduardo"],
+    };
+  },
 };
 </script>
 <template>
@@ -11,7 +16,7 @@ export default {
     <NovoBloco class="alert" />
     <NovoBloco />
     <NovoBloco />
-    <NovoBloco />
+    <NovoBloco :nomes="alunos1" />
   </main>
 </template>
 <style></style>
