@@ -1,5 +1,5 @@
 <script>
-import NovoBloco from "@/NovoBloco.vue";
+import NovoBloco from "@/components/NovoBloco.vue";
 export default {
   components: { NovoBloco },
   data() {
